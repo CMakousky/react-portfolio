@@ -1,14 +1,14 @@
-const PortfolioCard = (projectScreenshot, projectName, deployedWebLink, githubRepo) => {
+const PortfolioCard = ({ portfolioProjects }) => {
     return (
         <>
-            <section className="portfolio-card" id={projectName}>
+            <section className="portfolio-card" id={portfolioProjects.projectName}>
                 <figure>
-                    <img src={projectScreenshot} alt={projectName} />
+                    <img src={portfolioProjects.projectScreenshot} alt={portfolioProjects.projectName} />
                 </figure>
                 <article className="details">
-                    <h2>{projectName}</h2>
-                    <h2><a href={deployedWebLink}>Deployed Application</a></h2>
-                    <h2><a href={githubRepo}>GitHub Repository</a></h2>
+                    <h2>{portfolioProjects.projectName}</h2>
+                    <h2><a href={portfolioProjects.deployedWebLink}>Deployed Application</a></h2>
+                    <h2><a href={portfolioProjects.githubRepo}>GitHub Repository</a></h2>
                 </article>
             </section>
         </>
