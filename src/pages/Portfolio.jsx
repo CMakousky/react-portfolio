@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import PortfolioCard from "../components/UI/PortfolioCard";
+import PortfolioCard from "../components/UI/PortfolioCard.jsx";
 
 function Portfolio() {
     const portfolioProjects = [
@@ -22,20 +22,20 @@ function Portfolio() {
             githubRepo: "https://github.com/CMakousky/Kanban-CM"
         },
         {
-            projectScreenshot: "https://raw.githubusercontent.com/CMakousky/Book-Search-Engine-CM/refs/heads/main/images/Book-Search-Engine-CM-Screenshot.jpg",
-            projectName: "Book-Search-Engine-CM",
+            projectScreenshot: "",
+            projectName: "PixelOracle-CM",
+            deployedWebLink: "https://github.com/CMakousky/PixelOracle",
+            githubRepo: "https://github.com/CMakousky/PixelOracle"
+        },
+        {
+            projectScreenshot: "",
+            projectName: "Placeholder",
             deployedWebLink: "https://book-search-engine-cm.onrender.com/",
             githubRepo: "https://github.com/CMakousky/Book-Search-Engine-CM"
         },
         {
-            projectScreenshot: "https://raw.githubusercontent.com/CMakousky/Book-Search-Engine-CM/refs/heads/main/images/Book-Search-Engine-CM-Screenshot.jpg",
-            projectName: "Book-Search-Engine-CM",
-            deployedWebLink: "https://book-search-engine-cm.onrender.com/",
-            githubRepo: "https://github.com/CMakousky/Book-Search-Engine-CM"
-        },
-        {
-            projectScreenshot: "https://raw.githubusercontent.com/CMakousky/Book-Search-Engine-CM/refs/heads/main/images/Book-Search-Engine-CM-Screenshot.jpg",
-            projectName: "Book-Search-Engine-CM",
+            projectScreenshot: "",
+            projectName: "Placeholder",
             deployedWebLink: "https://book-search-engine-cm.onrender.com/",
             githubRepo: "https://github.com/CMakousky/Book-Search-Engine-CM"
         },
@@ -72,11 +72,11 @@ function Portfolio() {
 
     return (
         <>
-        {/* Six projects developed by me. */}
-        <div>
-            <h1>Portfolio Content</h1>
-            {cardArray}
-        </div>
+            {/* Six projects developed by me. */}
+            <div>
+                <h1>Portfolio Content</h1>
+                {cardArray}
+            </div>
         </>
     );
 };
