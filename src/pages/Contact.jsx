@@ -43,31 +43,35 @@ function Contact() {
 
     return (
         <>
-        <div>
+        <div className="container text-center">
             <h1>Contact Page</h1>
             <form className="form" onSubmit={handleFormSubmit}>
                 <input
-                value={email}
-                name="Email"
-                onChange={handleInputChange}
-                type="email"
-                placeholder="email"
+                    className="form-text"
+                    value={name}
+                    name="Name"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="name"
                 />
 
                 <input
-                value={name}
-                name="Name"
-                onChange={handleInputChange}
-                type="text"
-                placeholder="name"
+                    className="form-text"
+                    value={email}
+                    name="Email"
+                    onChange={handleInputChange}
+                    type="email"
+                    placeholder="email"
                 />
 
                 <input
-                value={message}
-                name="Message"
-                onChange={handleInputChange}
-                type="message"
-                placeholder="message"
+                    className="form-text"
+                    value={message}
+                    id="message-form"
+                    name="Message"
+                    onChange={handleInputChange}
+                    type="message"
+                    placeholder="message"
                 />
 
                 <button type="submit">Submit</button>
