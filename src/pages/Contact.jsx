@@ -27,18 +27,20 @@ function Contact() {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
 
-        // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+        // First we check to see if the email is not valid. If so we set an error message to be displayed on the page.
         if (!validateEmail(email)) {
             setErrorMessage('Email is invalid');
+            alert(`Email is invalid`);
             // We want to exit out of this code block if something is wrong so that the user can correct it
             return;
         }
         alert(`Thank you ${name}. Your message has been sent.`);
 
-        // If everything goes according to plan, we want to clear out the input after a successful registration.
+        // If everything goes according to plan, clear out the input fields and the error message.
         setName('');
         setMessage('');
         setEmail('');
+        setErrorMessage('');
     };
 
     return (
@@ -47,31 +49,37 @@ function Contact() {
             <h1>Contact Page</h1>
             <form className="form" onSubmit={handleFormSubmit}>
                 <input
+                    required="true"
+                    onMouseLeave={() => {if (name === '') setErrorMessage(`The Name field is required!`)}}
                     className="form-text"
                     value={name}
                     name="name"
                     onChange={handleInputChange}
                     type="text"
-                    placeholder="name"
+                    placeholder="Name"
                 />
 
                 <input
+                    required="true"
+                    onMouseLeave={() => {if (email === '') setErrorMessage(`The Email field is required!`)}}
                     className="form-text"
                     value={email}
                     name="email"
                     onChange={handleInputChange}
                     type="email"
-                    placeholder="email"
+                    placeholder="Email"
                 />
 
                 <textarea
+                    required="true"
+                    onMouseLeave={() => {if (message === '') setErrorMessage(`The Message field is required!`)}}
                     id="message-area"
                     className="form-text"
                     value={message}
                     name="message"
                     onChange={handleInputChange}
                     type="message"
-                    placeholder="message"
+                    placeholder="Message"
                 />
 
                 <button id="submit-button" type="submit">Submit</button>
