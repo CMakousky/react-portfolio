@@ -22,19 +22,19 @@ function Portfolio() {
             githubRepo: "https://github.com/CMakousky/Kanban-CM"
         },
         {
-            projectScreenshot: "",
+            projectScreenshot: "./images/Athanar1.png",
             projectName: "PixelOracle-CM",
             deployedWebLink: "https://github.com/CMakousky/PixelOracle",
             githubRepo: "https://github.com/CMakousky/PixelOracle"
         },
         {
-            projectScreenshot: "",
+            projectScreenshot: "./images/placeholder.jpg",
             projectName: "Placeholder",
             deployedWebLink: "https://book-search-engine-cm.onrender.com/",
             githubRepo: "https://github.com/CMakousky/Book-Search-Engine-CM"
         },
         {
-            projectScreenshot: "",
+            projectScreenshot: "./images/giantdad.jpg",
             projectName: "Placeholder",
             deployedWebLink: "https://book-search-engine-cm.onrender.com/",
             githubRepo: "https://github.com/CMakousky/Book-Search-Engine-CM"
@@ -73,10 +73,10 @@ function Portfolio() {
     return (
         <>
             {/* Six projects developed by me. */}
-            <div>
+            <section>
                 <h1>Portfolio Content</h1>
                 {cardArray}
-            </div>
+            </section>
         </>
     );
 };

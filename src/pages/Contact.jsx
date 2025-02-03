@@ -45,52 +45,52 @@ function Contact() {
 
     return (
         <>
-        <div className="container text-center">
-            <h1>Contact Page</h1>
-            <form className="form" onSubmit={handleFormSubmit}>
-                <input
-                    required="true"
-                    onMouseLeave={() => {if (name === '') setErrorMessage(`The Name field is required!`)}}
-                    className="form-text"
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Name"
-                />
+            <section className="container text-center">
+                <h1>Contact Page</h1>
+                <form className="form" onSubmit={handleFormSubmit}>
+                    <input
+                        required="true"
+                        onMouseLeave={() => {if (name === '') setErrorMessage(`The Name field is required!`)}}
+                        className="form-text"
+                        value={name}
+                        name="name"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="Name"
+                    />
 
-                <input
-                    required="true"
-                    onMouseLeave={() => {if (email === '') setErrorMessage(`The Email field is required!`)}}
-                    className="form-text"
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder="Email"
-                />
+                    <input
+                        required="true"
+                        onMouseLeave={() => {if (email === '') setErrorMessage(`The Email field is required!`)}}
+                        className="form-text"
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="email"
+                        placeholder="Email"
+                    />
 
-                <textarea
-                    required="true"
-                    onMouseLeave={() => {if (message === '') setErrorMessage(`The Message field is required!`)}}
-                    id="message-area"
-                    className="form-text"
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    type="message"
-                    placeholder="Message"
-                />
+                    <textarea
+                        required="true"
+                        onMouseLeave={() => {if (message === '') setErrorMessage(`The Message field is required!`)}}
+                        id="message-area"
+                        className="form-text"
+                        value={message}
+                        name="message"
+                        onChange={handleInputChange}
+                        type="message"
+                        placeholder="Message"
+                    />
 
-                <button id="submit-button" type="submit">Submit</button>
-            </form>
+                    <button id="submit-button" type="submit">Submit</button>
+                </form>
 
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
-        </div>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
+            </section>
         </>
     );
 };
