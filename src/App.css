@@ -34,6 +34,11 @@
   text-shadow: #FC0 1px 0 10px;
 }
 
+aside img {
+  float: left;
+  max-width: 640px;
+}
+
 .displayCards {
   display: inline-flex;
   flex-direction: row;

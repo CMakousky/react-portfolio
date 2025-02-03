@@ -5,6 +5,9 @@ function AboutMe() {
         {/* Short Bio about myself. */}
         <div>
             <h1>About Christopher Makousky</h1>
+                <aside>
+                    <img src="./images/photo-cropped.jpg" alt="Some Photo"/>
+                </aside>
                 <p>
                     Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
                     Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
