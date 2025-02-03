@@ -15,22 +15,22 @@ export default function Nav() {
     <Navbar
       links={[
         <li>
-          <Link key={1} className={currentPage === "About" ? "nav-link active text-light" : "nav-link text-light"} to="/" onClick={() => handlePageChange('About')}>
+          <Link key={1} className={currentPage === "About" ? "nav-link active text-light" : "nav-link text-light"} id='about-link' to="/" onClick={() => handlePageChange('About')}>
               About
           </Link>
         </li>,
         <li>
-          <Link key={2} className={currentPage === "Portfolio" ? "nav-link active text-light" : "nav-link text-light"} to="/portfolio" onClick={() => handlePageChange('Portfolio')}>
+          <Link key={2} className={currentPage === "Portfolio" ? "nav-link active text-light" : "nav-link text-light"} id='portfolio-link' to="/portfolio" onClick={() => handlePageChange('Portfolio')}>
               Portfolio
           </Link>
         </li>,
         <li>
-          <Link key={3} className={currentPage === "Contact" ? "nav-link active text-light" : "nav-link text-light"} to="/contact" onClick={() => handlePageChange('Contact')}>
+          <Link key={3} className={currentPage === "Contact" ? "nav-link active text-light" : "nav-link text-light"} id='contact-link' to="/contact" onClick={() => handlePageChange('Contact')}>
               Contact
           </Link>
         </li>,
         <li>
-          <Link key={4} className={currentPage === "Resume" ? "nav-link active text-light" : "nav-link text-light"} to="/resume" onClick={() => handlePageChange('Resume')}>
+          <Link key={4} className={currentPage === "Resume" ? "nav-link active text-light" : "nav-link text-light"} id='resume-link' to="/resume" onClick={() => handlePageChange('Resume')}>
               Resume
           </Link>
         </li>,

@@ -33,7 +33,7 @@ function Contact() {
             // We want to exit out of this code block if something is wrong so that the user can correct it
             return;
         }
-        alert(`Thankyou ${name}. Your message has been sent.`);
+        alert(`Thank you ${name}. Your message has been sent.`);
 
         // If everything goes according to plan, we want to clear out the input after a successful registration.
         setName('');
@@ -49,7 +49,7 @@ function Contact() {
                 <input
                     className="form-text"
                     value={name}
-                    name="Name"
+                    name="name"
                     onChange={handleInputChange}
                     type="text"
                     placeholder="name"
@@ -58,23 +58,23 @@ function Contact() {
                 <input
                     className="form-text"
                     value={email}
-                    name="Email"
+                    name="email"
                     onChange={handleInputChange}
                     type="email"
                     placeholder="email"
                 />
 
-                <input
+                <textarea
+                    id="message-area"
                     className="form-text"
                     value={message}
-                    id="message-form"
-                    name="Message"
+                    name="message"
                     onChange={handleInputChange}
                     type="message"
                     placeholder="message"
                 />
 
-                <button type="submit">Submit</button>
+                <button id="submit-button" type="submit">Submit</button>
             </form>
 
             {errorMessage && (
