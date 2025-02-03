@@ -10,14 +10,29 @@
   text-align: center;
 }
 
+/* Navigation */
+
+.navbar {
+  width: 100%;
+}
+
 .nav-link.active {
   text-shadow: #FC0 1px 0 10px;
 }
 
+/* About Me */
+
 aside img {
   float: left;
   max-width: 640px;
+  width: 50%;
 }
+
+#bio {
+  width: 100%
+}
+
+/* Portfolio */
 
 .displayCards {
   display: inline-flex;
@@ -54,6 +69,8 @@ aside img {
   border-style: solid;
   margin-bottom: auto;
 }
+
+/* Contact */
 
 .container.text-center {
   width: 100vw;
@@ -93,6 +110,5 @@ aside img {
   border-style: solid;
 }
 
-.navbar {
-  width: 100%;
-}
+/* Resume */
+
