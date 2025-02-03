@@ -20,6 +20,15 @@
   text-shadow: #FC0 1px 0 10px;
 }
 
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /* About Me */
 
 aside img {
