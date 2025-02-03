@@ -29,15 +29,15 @@ function Portfolio() {
         },
         {
             projectScreenshot: "./images/placeholder.jpg",
-            projectName: "Placeholder",
-            deployedWebLink: "https://book-search-engine-cm.onrender.com/",
-            githubRepo: "https://github.com/CMakousky/Book-Search-Engine-CM"
+            projectName: "Social-Network-API-CM",
+            deployedWebLink: "https://github.com/CMakousky/Social-Network-API-CM",
+            githubRepo: "https://github.com/CMakousky/Social-Network-API-CM"
         },
         {
             projectScreenshot: "./images/giantdad.jpg",
             projectName: "Placeholder",
-            deployedWebLink: "https://book-search-engine-cm.onrender.com/",
-            githubRepo: "https://github.com/CMakousky/Book-Search-Engine-CM"
+            deployedWebLink: "https://github.com/CMakousky/react-portfolio",
+            githubRepo: "https://github.com/CMakousky/react-portfolio"
         },
     ];
 
