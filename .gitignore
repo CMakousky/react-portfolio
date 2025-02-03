@@ -144,4 +144,4 @@ package-lock.json
 *.sw?
 
 # local images
-images/*
+public/images/
