@@ -2,12 +2,17 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 100vw;
   max-width: 1680px;
   min-width: 200px;
-  width: 80vw;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+main {
+  background-image: url("./images/image_30.jpg");
+  background-size: 1680px, auto;
 }
 
 /* Navigation */
@@ -25,7 +30,7 @@
 footer {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
   background-color: rgb(108, 117, 125);
 }

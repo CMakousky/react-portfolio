@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Navbar from './UI/Navbar';
 
-export default function Nav() {
+export default function Header() {
   // Set up useState to keep track of the current page
   const [currentPage, setCurrentPage] = useState('About');
   
