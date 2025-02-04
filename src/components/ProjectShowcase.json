@@ -31,10 +31,10 @@
             "githubRepo": "https://github.com/CMakousky/Social-Network-API-CM"
         },
         {
-            "projectScreenshot": "./images/image_154.jpg",
-            "projectName": "Placeholder",
-            "deployedWebLink": "https://github.com/CMakousky/react-portfolio",
-            "githubRepo": "https://github.com/CMakousky/react-portfolio"
+            "projectScreenshot": "https://raw.githubusercontent.com/CMakousky/Tech-Quiz-CM/refs/heads/main/images/Tech-Quiz-CM-Screenshot.jpg",
+            "projectName": "Tech-Quiz-CM",
+            "deployedWebLink": "",
+            "githubRepo": "https://github.com/CMakousky/Tech-Quiz-CM"
         }
     ]
 }
