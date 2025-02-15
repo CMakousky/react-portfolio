@@ -3,6 +3,9 @@ function Resume() {
         <>
             <section>
                 <h1>Resume</h1>
+                    <h4>
+                        <a href="./download/resume-placeholder.txt" download={"cmakousky-resume"} id="resume-download-link">Download Resume</a>
+                    </h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
                         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
@@ -15,10 +18,6 @@ function Resume() {
                         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
                         fames ac ante ipsum primis in faucibus.
                     </p>
-            </section>
-
-            <section>
-                <a href="./images/giantdad.jpg" download={"wut-r-u"}>Download Resume</a>
             </section>
         </>
     );

@@ -142,6 +142,3 @@ package-lock.json
 *.njsproj
 *.sln
 *.sw?
-
-# local images
-public/images/
