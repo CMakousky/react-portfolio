@@ -19,13 +19,13 @@
             "githubRepo": "https://github.com/CMakousky/Kanban-CM"
         },
         {
-            "projectScreenshot": "./images/image_7.jpg",
+            "projectScreenshot": "https://raw.githubusercontent.com/CMakousky/PixelOracle/refs/heads/main/images/PixelOracle-CM.jpg",
             "projectName": "PixelOracle-CM",
-            "deployedWebLink": "https://github.com/CMakousky/PixelOracle",
+            "deployedWebLink": "https://pixeloracle-cm.onrender.com/",
             "githubRepo": "https://github.com/CMakousky/PixelOracle"
         },
         {
-            "projectScreenshot": "./images/image_153.jpg",
+            "projectScreenshot": "./images/giantdad.jpg",
             "projectName": "Social-Network-API-CM",
             "deployedWebLink": "https://github.com/CMakousky/Social-Network-API-CM",
             "githubRepo": "https://github.com/CMakousky/Social-Network-API-CM"
@@ -33,7 +33,7 @@
         {
             "projectScreenshot": "https://raw.githubusercontent.com/CMakousky/Tech-Quiz-CM/refs/heads/main/images/Tech-Quiz-CM-Screenshot.jpg",
             "projectName": "Tech-Quiz-CM",
-            "deployedWebLink": "",
+            "deployedWebLink": "https://tech-quiz-cm.onrender.com",
             "githubRepo": "https://github.com/CMakousky/Tech-Quiz-CM"
         }
     ]

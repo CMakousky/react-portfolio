@@ -16,6 +16,10 @@ function Resume() {
                         fames ac ante ipsum primis in faucibus.
                     </p>
             </section>
+
+            <section>
+                <a href="./images/giantdad.jpg" download={"wut-r-u"}>Download Resume</a>
+            </section>
         </>
     );
 };
