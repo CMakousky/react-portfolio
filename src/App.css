@@ -13,6 +13,7 @@
 main {
   background-image: url("./images/image_30.jpg");
   background-size: 1680px, auto;
+  align-self: center;
 }
 
 /* Navigation */
@@ -41,10 +42,14 @@ aside img {
   float: left;
   max-width: 640px;
   width: 50%;
+  margin: 10px;
+  margin-left: 0px;
+  margin-right: 20px;
 }
 
 #bio {
-  width: 100%
+  width: 100%;
+  text-align: left;
 }
 
 /* Portfolio */
@@ -127,3 +132,174 @@ aside img {
 
 /* Resume */
 
+#resume {
+  width: 1280px;
+}
+
+/* Resume - Summary */
+
+#summary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#summary p {
+  text-align: left;
+}
+
+/* Resume - Education */
+
+#education {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#web-dev {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#web-dev span {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#web-dev li {
+  margin-left: 80px;
+}
+
+#mechanical-engineer {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#mechanical-engineer span {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#mechanical-engineer li {
+  margin-left: 80px;
+}
+
+/* Resume - RelevantProjects */
+
+#relevant-projects {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#relevant-projects h2 {
+  text-align: center;
+}
+
+#relevant-projects span {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#relevant-projects li {
+  margin-left: 80px;
+}
+
+#relevant-projects #key-accomplishments {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+/* Resume - AdditionalExperience */
+
+#additional-experience {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#additional-experience h2 {
+  text-align: center;
+}
+
+#additional-experience span {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#additional-experience li {
+  margin-left: 80px;
+}
+
+/* Resume - TechnicalSkills */
+
+#technical-skills {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#technical-skills h2 {
+  text-align: center;
+}
+
+/* Resume - Certifications */
+
+#certifications {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#certifications h2 {
+  text-align: center;
+}
+
+#certifications span {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#certifications li {
+  margin-left: 80px;
+}
+
+/* Resume - ContinuingEducation */
+
+#continuing-education {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#continuing-education h2 {
+  text-align: center;
+}
+
+#continuing-education span {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/* Resume - Languages */
+
+#languages {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#languages h2 {
+  text-align: center;
+}
+
+#languages span {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
