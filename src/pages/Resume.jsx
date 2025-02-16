@@ -13,7 +13,7 @@ function Resume() {
             <section id="resume">
                 <h1>Resume</h1>
                 <h4>
-                    <a href="./download/2025-02-15_Resume_Christopher_Makousky.pdf" download={"cmakousky-resume"} id="resume-download-link">Download Resume</a>
+                    <a href="./download/2025-02-16_Resume_Christopher_Makousky.pdf" download={"cmakousky-resume"} id="resume-download-link">Download Resume</a>
                 </h4>
 
                 <section id="summary">

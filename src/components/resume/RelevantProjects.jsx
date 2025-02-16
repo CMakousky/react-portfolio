@@ -23,15 +23,15 @@ const RelevantProjects = () => {
 
         <ul>
             <li>
-                <b>Weather-Report-Dashboard-CM</b> - Client Server system that allows a user logged into an SQL database via a web interface to search a foreign open database for current temperature conditions and display a 5-day temperature forecast for his favorite cities.
+                <b>Weather-Report-Dashboard-CM</b> - Client Server system that allows a user to search a foreign open database for current weather conditions and display a 5-day weather forecast for his favorite cities.
             </li>
 
             <li>
-                <b>BookSearch-Engine-CM</b> - Client Server system that allows a user logged into a NoSQL database via a web interface to search a foreign open database for books.  It allows the user to save his favorite book selections and metadata to the native NoSQL database
+                <b>BookSearch-Engine-CM</b> - Client Server system that allows a user logged into a web interface to search a foreign open database for books.  It allows the user to save his favorite book selections and metadata to the native NoSQL database.
             </li>
 
             <li>
-                <b>PixelOracle-CM</b> - Client Server system that allows a user logged into a NoSQL database via a web interface to search a foreign open database for video game applications. It allows the user to save metadata for his favorite video game applications to the native NoSQL database and uses AI to make suggestions to the user for other video games that may be of interest based on his previous selections.
+                <b>PixelOracle-CM</b> - Client Server system that allows a user logged into a web interface to search a foreign open database for video game applications. It allows the user to save metadata for his favorite video game applications to the native SQL database and uses AI to make suggestions to the user for other video games that may be of interest based on his previous selections.
             </li>
         </ul>
         </>
