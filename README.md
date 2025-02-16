@@ -5,7 +5,7 @@
 
 A one-page web-application that presents a portfolio of web-applications designed by the author. Click the navigation links in the header to browse the author's portfolio, biography, or resume.
 
-![plot]()
+![plot](./public/images/react-portfolio-screenshot.jpg)
 
 ## Table of Contents
 
