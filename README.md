@@ -1,15 +1,38 @@
 # React-Portfolio-CM
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# React + Vite
+## Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A one-page web-application that presents a portfolio of web-applications designed by the author. Click the navigation links in the header to browse the author's portfolio, biography, or resume.
 
-Currently, two official plugins are available:
+![plot]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-# Test Criteria
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
+
+## Installation
+
+Execute the script 'npm run install' to install the dependency files for the Reat-Portfolio-CM project. Run the 'npm run build' script to generate the 'dist' folder.
+
+## Usage
+
+Execute the 'npm run start' script to start the web server. Click on the links in the navigation bar to change between the 'About', 'Portfolio', 'Contact', and 'Resume' pages. See the following link for the deployed web application.
+
+[Deployed Web Application](https://cmakousky-portfolio.netlify.app/)
+
+## Contributing
+
+Contact Christopher Makousky for inqueries on making contributions to this project.
+
+## Tests
+
+Attempt the following test procedures.
 
     GIVEN a single-page application portfolio for a web developer
 
@@ -48,3 +71,13 @@ Currently, two official plugins are available:
     
     WHEN I view the footer
     THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+
+## Questions
+
+https://github.com/CMakousky
+
+christopher.makousky@gmail.com
+
+## License
+
+MIT License
