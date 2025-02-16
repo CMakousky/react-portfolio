@@ -34,6 +34,7 @@ footer {
   margin-top: 0px;
   margin-bottom: 20px;
   background-color: rgb(108, 117, 125);
+  min-width: none;
 }
 
 /* About Me */
@@ -94,6 +95,7 @@ aside img {
 
 .container.text-center {
   width: 100vw;
+  min-width: none;
 }
 
 .form {
@@ -166,7 +168,7 @@ aside img {
 }
 
 #web-dev li {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 #mechanical-engineer {
@@ -181,7 +183,7 @@ aside img {
 }
 
 #mechanical-engineer li {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 /* Resume - RelevantProjects */
@@ -203,7 +205,7 @@ aside img {
 }
 
 #relevant-projects li {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 #relevant-projects #key-accomplishments {
@@ -231,7 +233,7 @@ aside img {
 }
 
 #additional-experience li {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 /* Resume - TechnicalSkills */
@@ -265,7 +267,7 @@ aside img {
 }
 
 #certifications li {
-  margin-left: 80px;
+  margin-left: 40px;
 }
 
 /* Resume - ContinuingEducation */
