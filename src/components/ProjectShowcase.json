@@ -25,10 +25,10 @@
             "githubRepo": "https://github.com/CMakousky/weather-report-dashboard"
         },
         {
-            "projectScreenshot": "./images/giantdad.jpg",
-            "projectName": "Social-Network-API-CM",
-            "deployedWebLink": "",
-            "githubRepo": "https://github.com/CMakousky/Social-Network-API-CM"
+            "projectScreenshot": "https://raw.githubusercontent.com/CMakousky/GameSwap-CM/refs/heads/main/client/images/screenshot1.png",
+            "projectName": "GameSwap-CM",
+            "deployedWebLink": "https://gameswap-cm.onrender.com",
+            "githubRepo": "https://github.com/CMakousky/GameSwap-CM"
         },
         {
             "projectScreenshot": "https://raw.githubusercontent.com/CMakousky/Tech-Quiz-CM/refs/heads/main/images/Tech-Quiz-CM-Screenshot.jpg",
