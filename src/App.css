@@ -11,7 +11,7 @@
 }
 
 main {
-  background-image: url("./images/image_30.jpg");
+  /* background-image: url("./images/image_30.jpg"); */
   background-size: 1680px, auto;
   align-self: center;
 }
