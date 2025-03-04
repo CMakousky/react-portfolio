@@ -34,7 +34,7 @@ function Contact() {
             // We want to exit out of this code block if something is wrong so that the user can correct it
             return;
         }
-        window.location.href = `mailto:christopher.makousky@(see resume for details)?subject=Communique from ${name} (${email})&body=${message}`;
+        window.location.href = `mailto:christopher.makousky@(download resume for details)?subject=Communique from ${name} (${email})&body=${message}`;
 
         alert(`Thank you ${name}.`);
 
