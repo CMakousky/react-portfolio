@@ -34,7 +34,7 @@ function Contact() {
             // We want to exit out of this code block if something is wrong so that the user can correct it
             return;
         }
-        window.location.href = `mailto:?subject=Communique from ${name} (${email})&body=${message}`;
+        window.location.href = `mailto:christopher.makousky@(see resume for details)?subject=Communique from ${name} (${email})&body=${message}`;
 
         alert(`Thank you ${name}.`);
 
@@ -51,7 +51,7 @@ function Contact() {
                 <h1>Contact Page</h1>
                 <form className="form" onSubmit={handleFormSubmit}>
                     <input
-                        required="true"
+                        required={true}
                         onMouseLeave={() => {if (name === '') setErrorMessage(`The Name field is required!`)}}
                         className="form-text"
                         value={name}
@@ -62,7 +62,7 @@ function Contact() {
                     />
 
                     <input
-                        required="true"
+                        required={true}
                         onMouseLeave={() => {if (email === '') setErrorMessage(`The Email field is required!`)}}
                         className="form-text"
                         value={email}
@@ -73,7 +73,7 @@ function Contact() {
                     />
 
                     <textarea
-                        required="true"
+                        required={true}
                         onMouseLeave={() => {if (message === '') setErrorMessage(`The Message field is required!`)}}
                         id="message-area"
                         className="form-text"
