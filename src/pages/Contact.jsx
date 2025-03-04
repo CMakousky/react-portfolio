@@ -34,7 +34,9 @@ function Contact() {
             // We want to exit out of this code block if something is wrong so that the user can correct it
             return;
         }
-        alert(`Thank you ${name}. Your message has been sent.`);
+        window.location.href = `mailto:?subject=Communique from ${name} (${email})&body=${message}`;
+
+        alert(`Thank you ${name}.`);
 
         // If everything goes according to plan, clear out the input fields and the error message.
         setName('');
